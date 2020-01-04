@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>finvestr</title>
   <meta charset="UTF-8">
@@ -10,64 +11,102 @@
   <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="vendors/aos/css/aos.css">
   <link rel="stylesheet" href="css/style.min.css">
+
 </head>
+
 <body id="body" data-spy="scroll" data-target=".navbar" data-offset="100">
-  
+
   <header id="header-section">
     <nav class="navbar navbar-expand-lg pl-3 pl-sm-0" id="navbar">
-    <div class="container">
-      <div class="navbar-brand-wrapper d-flex w-100">
-        <img src="images/flogo.svg" alt="">
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="mdi mdi-menu navbar-toggler-icon"></span>
-        </button> 
+      <div class="container">
+        <div class="navbar-brand-wrapper d-flex w-100">
+         <a href="index.html">
+            <img src="images/finallogook.svg  " alt="">
+         </a>
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="mdi mdi-menu navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-menu-wrapper" id="navbarSupportedContent">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="mdi mdi-menu navbar-toggler-icon"></span>
+          </button>
+          <ul class="navbar-nav align-items-lg-center align-items-start ml-auto">
+            <li class="d-flex align-items-center justify-content-between pl-4 pl-lg-0">
+              <div class="navbar-collapse-logo">
+                  
+                  <!-- <a href="index.html">
+                      <img src="images/finallogook.svg  " alt="">
+                   </a> -->
+                <img src="images/finallogook.svg" alt="">
+              </div>
+              <button class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="mdi mdi-close navbar-toggler-icon pl-5"></span>
+              </button>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#header-section">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features-section">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing-section">Pricing</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#book-section">Connect</a>
+            </li> -->
+        
+            <li class="nav-item">
+              <a class="nav-link" href="#feedback-section">Blog</a>
+            </li>
+            
+            <li class="nav-item btn-contact-us pl-4 pl-lg-0">
+              <!-- <a href="https://portal.finvestr.com/#!/access/signin">
+                <button class="btn btn-info"  style="background-color: #182349; border:#182349 " >Login</button>
+</a> -->
+<button class="btn btn-info" style="background-color: #182349; border:#182349 " data-toggle="modal" data-target="#loginModal">Login</button>
+
+              <button class="btn btn-info" data-toggle="modal" data-target="#signupModal">Sign Up</button>
+
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="collapse navbar-collapse navbar-menu-wrapper" id="navbarSupportedContent">
-        <ul class="navbar-nav align-items-lg-center align-items-start ml-auto">
-          <li class="d-flex align-items-center justify-content-between pl-4 pl-lg-0">
-            <div class="navbar-collapse-logo">
-              <img src="images/Group2.svg" alt="">
-            </div>
-            <button class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="mdi mdi-close navbar-toggler-icon pl-5"></span>
-            </button>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#header-section">Homeasbksab <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#features-section">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#digital-marketing-section">Blog</a>  
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#feedback-section">Testimonials</a>
-          </li>
-          <li class="nav-item btn-contact-us pl-4 pl-lg-0">
-            <button class="btn btn-info" data-toggle="modal" data-target="#exampleModal">Contact Us</button>
-          </li>
-        </ul>
-      </div>
-    </div> 
-    </nav>   
+    </nav>
   </header>
-  <div class="banner" >
+  <div class="banner">
     <div class="container">
-      <h1 class="font-weight-semibold">Building Wealth To Fulfil <br>Dreams.</h1>
-      <h6 class="font-weight-normal text-muted pb-3">Simple is a simple template with a creative design that solves all your marketing and SEO queries.</h6>
+      <h1 class="font-weight-semibold">Building Wealth To Fulfil
+        <br>Dreams.</h1>
+      <h6 class="font-weight-normal text-muted pb-3">We deploy our team of experts who do the heavy lifting and help you manage money in the most simplistic form.</h6>
       <div>
-        <button class="btn btn-opacity-light mr-1">Get started</button>
-        <button class="btn btn-opacity-success ml-1">Learn more</button>
+        <a class="btn btn-opacity-light mr-1" href="bookings.html">Schedule Discussion</a>
+        <a class="btn btn-opacity-success ml-1" href="#features-section">Learn more</a>
       </div>
-      <img src="images/Group171.svg" alt="" class="img-fluid">
+             <img src="images/Group171.svg" alt="" class="img-fluid"> 
+      
+      <!-- <div class="row">
+          <div class="col-sm-6  align-center">
+              <img src="images/Group171.svg" alt="" class="img-fluid"> 
+            </div>
+          <div class="col-sm-6 align-center">
+         
+            <!-- <h2>16:9 Responsive Aspect Ratio</h2> -->
+   
+
     </div>
   </div>
   <div class="content-wrapper">
     <div class="container">
-      <section class="features-overview" id="features-section" >
+      <section class="features-overview" id="features-section">
         <div class="content-header">
-          <h2>OUR SERVICES</h2>
+          <h2>SERVICES</h2>
           <h6 class="section-subtitle text-muted">Our comprehensive range of services cater to wide audience and yet very discrete in offerings.</h6>
         </div>
         <div class="d-md-flex justify-content-between">
@@ -76,16 +115,22 @@
               <img src="images/Group12.svg" alt="" class="img-icons">
               <h5 class="py-3">
                 Private Wealth Management</h5>
-              <p class="text-muted">Exclusive advice to meet specific mandates, which incorporates advanced asset allocation strategies and tactical alpha generation.</p>
-              <a href="#"><p class="readmore-link">Readmore</p></a>  
+              <p class="text-muted">Exclusive advice to meet  specific mandates, which incorporates advanced <br> asset allocation strategies and tactical
+                alpha generation.</p>
+              <a href="#">
+                <!-- <p class="readmore-link">Readmore</p> -->
+              </a>
             </div>
           </div>
           <div class="grid-margin d-flex justify-content-center">
             <div class="features-width">
               <img src="images/Group7.svg" alt="" class="img-icons">
               <h5 class="py-3">Financial Planning</h5>
-              <p class="text-muted">End to end investment management solution to meet your investment goals. We use our unique process driven advisory model to meet these objectives.</p>
-              <a href="#"><p class="readmore-link">Readmore</p></a>
+              <p class="text-muted">End to end investment management solution to meet your investment <br> goals. We use our unique process driven advisory
+                model to meet these objectives.</p>
+              <a href="#">
+                <!-- <p class="readmore-link">Readmore</p> -->
+              </a>
             </div>
           </div>
           <div class="grid-margin d-flex justify-content-end">
@@ -93,20 +138,55 @@
               <img src="images/Group5.svg" alt="" class="img-icons">
               <h5 class="py-3">Alternative Products</h5>
               <p class="text-muted">Custom solutions and products. Alternative Investments.
-                </p>
-              <a href="#"><p class="readmore-link">Readmore</p></a>
+              </p>
+              <a href="#">
+                <!-- <p class="readmore-link">Readmore</p> -->
+              </a>
             </div>
           </div>
         </div>
-      </section>     
+      </section>
       <section class="digital-marketing-service" id="digital-marketing-section">
+
+          <div class="row align-items-center text-center pb-5">
+              <div class="col-12 col-lg-12 grid-margin grid-margin-lg-0 py-2" data-aos="fade-right">
+                <h3 class="m-0">Features</h3>
+              
+              </div>
+              <div class="col-12 col-lg-12 p-0 img-digital grid-margin grid-margin-lg-0 " data-aos="zoom-in">
+                <img src="images/features.png" alt="" class="img-fluid">
+              </div>
+            </div>
+  
+            <div class="row align-items-center text-center pb-5">
+              <div class="col-12 col-lg-12 grid-margin grid-margin-lg-0 py-2" data-aos="fade-right">
+                  <h3 class="text-center text-muted">Your Journey With Us</h3>
+                  <div class="text-center text-muted">
+                      <!-- <h5 class=" py-3 px-3 text-muted" style="text-align: left;">
+                          FinvestR Funnel We put a lot of effort into doing what’s right and best for you! Right from product selection to forming
+                          the capital market expectation for coming years. Our proprietary tools and models are what distinguishes
+                          us from others.
+                      </h5> -->
+                      <!-- <p class="py-4 m-0 text-muted">We run multiple simulations to make sure you never run out of fuel when you need it the most!</p> -->
+                      <!-- <p class="pb-2 font-weight-medium text-muted">Its smart features make it a powerful stand-alone website building tool.</p> -->
+                  </div>
+              </div>
+              <div class="col-12 col-lg-12 p-0 img-digital grid-margin grid-margin-lg-0 " data-aos="zoom-in">
+                  <img src="images/journey.png" alt="" class="img-fluid">
+              </div>
+          </div>
+
         <div class="row align-items-center">
+            <div class="col-12 col-lg-12 grid-margin grid-margin-lg-0 text-center py-2 mb-5" data-aos="fade-right">
+                <h3 class="m-0">How we do it</h3>
+              
+              </div>
           <div class="col-12 col-lg-7 grid-margin grid-margin-lg-0" data-aos="fade-right">
             <h3 class="m-0">A Robust Retirement Solution</h3>
             <div class="col-lg-7 col-xl-6 p-0">
               <p class="py-4 m-0 text-muted">We run multiple simulations to make sure you never run out of fuel when you need it the most!</p>
-              <p class="pb-2 font-weight-medium text-muted">Its smart features make it a powerful stand-alone website building tool.</p>
-            </div>    
+              <!-- <p class="pb-2 font-weight-medium text-muted">Its smart features make it a powerful stand-alone website building tool.</p> -->
+            </div>
           </div>
           <div class="col-12 col-lg-5 p-0 img-digital grid-margin grid-margin-lg-0" data-aos="fade-left">
             <img src="images/Retirement2.png" alt="" class="img-fluid">
@@ -114,19 +194,24 @@
         </div>
         <div class="row align-items-center">
           <div class="col-12 col-lg-7 text-center flex-item grid-margin" data-aos="fade-right">
-            <img src="images/Group2.png" alt="" class="img-fluid">
+            <img src="images/How1.png" class="img-fluid">
           </div>
-          <div class="col-12 col-lg-5 flex-item grid-margin" data-aos="fade-left">
-            <h3 class="m-0">Leading Digital Agency<br>for  Business Solution.</h3>
+          <div class="col-12 col-lg-5 flex-item grid-margin mt-5" data-aos="fade-left">
+            <h3 class="m-0">FinvestR Funnel<br>
+              </h3>
+             
             <div class="col-lg-9 col-xl-8 p-0">
-              <p class="py-4 m-0 text-muted">Power-packed with impressive features and well-optimized, this template is designed to provide the best performance in all circumstances.</p>
-              <p class="pb-2 font-weight-medium text-muted">Its smart features make it a powerful stand-alone website building tool.</p>
+              <p class="py-4 m-0 text-muted">We put a lot of effort into doing what’s right and best for you! Right from product selection to forming the capital market expectation for coming years. Our proprietary tools and models are what distinguishes us from others.
+              </p>
+              <!-- <p class="pb-2 font-weight-medium text-muted">Its smart features make it a powerful stand-alone website building tool.</p> -->
             </div>
-            <button class="btn btn-info">Readmore</button>
+            <!-- <button class="btn btn-info">Readmore</button> -->
           </div>
         </div>
-      </section>     
-      <section class="case-studies" id="case-studies-section">
+      </section>
+
+    <!-- BLOG CAROUSEL LANDINGPAGE -->
+      <!-- <section class="case-studies" id="case-studies-section">
         <div class="row grid-margin">
           <div class="col-12 text-center pb-5">
             <h2>Recent Articles: FinvestR Capital</h2>
@@ -138,17 +223,17 @@
                 <div class="bg-primary text-center card-contents">
                   <div class="card-image">
                     <img src="images/Group95.svg" class="case-studies-card-img" alt="">
-                  </div>  
+                  </div>
                   <div class="card-desc-box d-flex align-items-center justify-content-around">
                     <div>
                       <h6 class="text-white pb-2 px-3">With increasing income levels and investment options</h6>
                       <button class="btn btn-white">Coninue Reading</button>
                     </div>
                   </div>
-                </div>   
+                </div>
                 <div class="card-details text-center pt-4">
-                    <h6 class="m-0 pb-1">How to spot the right investment advisor?</h6>
-                    <p>Sub  Heading if any</p>
+                  <h6 class="m-0 pb-1">How to spot the right investment advisor?</h6>
+                  <p>Sub Heading if any</p>
                 </div>
               </div>
             </div>
@@ -158,18 +243,18 @@
               <div class="card-body p-0">
                 <div class="bg-warning text-center card-contents">
                   <div class="card-image">
-                      <img src="images/Group108.svg" class="case-studies-card-img" alt="">
-                  </div>  
+                    <img src="images/Group108.svg" class="case-studies-card-img" alt="">
+                  </div>
                   <div class="card-desc-box d-flex align-items-center justify-content-around">
                     <div>
                       <h6 class="text-white pb-2 px-3">Know more about Web Development</h6>
                       <button class="btn btn-white">Read More</button>
                     </div>
                   </div>
-                </div>   
+                </div>
                 <div class="card-details text-center pt-4">
-                    <h6 class="m-0 pb-1">Web Development</h6>
-                    <p>Developing, Designing</p>
+                  <h6 class="m-0 pb-1">Web Development</h6>
+                  <p>Developing, Designing</p>
                 </div>
               </div>
             </div>
@@ -179,18 +264,18 @@
               <div class="card-body p-0">
                 <div class="bg-violet text-center card-contents">
                   <div class="card-image">
-                      <img src="images/Group126.svg" class="case-studies-card-img" alt="">
-                  </div>  
+                    <img src="images/Group126.svg" class="case-studies-card-img" alt="">
+                  </div>
                   <div class="card-desc-box d-flex align-items-center justify-content-around">
                     <div>
                       <h6 class="text-white pb-2 px-3">Know more about Web Designing</h6>
                       <button class="btn btn-white">Read More</button>
                     </div>
                   </div>
-                </div>   
+                </div>
                 <div class="card-details text-center pt-4">
-                    <h6 class="m-0 pb-1">Web Designing</h6>
-                    <p>Designing, Developing</p>
+                  <h6 class="m-0 pb-1">Web Designing</h6>
+                  <p>Designing, Developing</p>
                 </div>
               </div>
             </div>
@@ -200,186 +285,453 @@
               <div class="card-body p-0">
                 <div class="bg-success text-center card-contents">
                   <div class="card-image">
-                      <img src="images/Group115.svg" class="case-studies-card-img" alt="">
-                  </div>  
+                    <img src="images/Group115.svg" class="case-studies-card-img" alt="">
+                  </div>
                   <div class="card-desc-box d-flex align-items-center justify-content-around">
                     <div>
                       <h6 class="text-white pb-2 px-3">Know more about Software Development</h6>
                       <button class="btn btn-white">Read More</button>
                     </div>
                   </div>
-                </div>   
+                </div>
                 <div class="card-details text-center pt-4">
-                    <h6 class="m-0 pb-1">Software Development</h6>
-                    <p>Developing, Designing</p>
+                  <h6 class="m-0 pb-1">Software Development</h6>
+                  <p>Developing, Designing</p>
                 </div>
               </div>
             </div>
           </div>
-          
+
         </div>
-      </section>     
-      <section class="customer-feedback" id="feedback-section">
+      </section> -->
+     
+      <section class="section my-5" >
+          <div class="container" id="pricing-section">
+            <div class=row >
+              <div class="col-lg-12 mt-5 text-center">
+                <h2 class=section-title data-aos=fade-up data-aos-delay=100>Pricing</h2>
+                              <!-- <p class=subtitle data-aos=fade-up>Choose your plan</p> -->
+
+              </div>
+              <div class=" col-lg-4 col-sm-6 mb-lg-0 mb-4" data-aos=fade-up data-aos-delay=0>
+                <div class="pricing-table position-relative text-center px-4 py-5 rounded-lg shadow transition bg-white">
+                  <span class="badge badge-pill badge-light font-weight-medium mb-3 py-2 px-4 text-primary">Basic</span>
+                  <div class="h1 text-success">FREE
+                  </div>
+                    <!-- <span class="paragraph text-lowercase"> / mo</span> -->
+
+                  <h5 class="mb-4 font-weight-normal text-muted">Advisory Session</h5>
+                  <hr>
+                  <ul class="list-unstyled my-4">
+                    <li class=my-3>Mutual Funds</li>
+                    <li class=my-3>Stocks - ETF's - IPO's</li>
+                    <li class=my-3><s>Retirement Planning</s></li>
+                    <li class=my-3><s>Cashflow Planning</s></li>
+                    <li class=my-3><s>Strategic Asset Allocation</s></li>
+                    <li class=my-3><s>Tax Loss Harvesting</s></li>
+                    <li class=my-3><s>Inheritance Management and Planning</s></li>
+                    <li class=my-3><s>Portfolio Services</s></li>
+                    <li class=my-3><s>Support - Email and Phone / FAQ</s></li>
+                    <li class=my-3>Online Transaction - IF required</li>
+                    <li class=my-3>Learning Center</li>
+                    
+                  </ul>
+                  <a href=# class="btn btn-outline-primary">select plan</a>
+                </div>
+              </div>
+              
+              <div class=" col-lg-4 col-sm-6 mb-lg-0 mb-4" data-aos=fade-up data-aos-delay=0>
+                  <div class="pricing-table position-relative text-center px-4 py-5 rounded-lg shadow transition bg-white">
+                    <span class="badge badge-pill badge-light font-weight-medium mb-3 py-2 px-4 text-primary">Basic</span>
+                    <div class="h1 text-dark">Rs.5000
+                      <!-- <span class="paragraph text-lowercase"> / mo</span> -->
+                    </div>
+                    <h5 class="mb-4 font-weight-normal text-muted">Advisory Session</h5>
+                    <hr>
+                    <ul class="list-unstyled my-4">
+                      <li class=my-3>Mutual Funds</li>
+                      <li class=my-3>Stocks - ETF's - IPO's</li>
+                      <li class=my-3>Retirement Planning</li>
+                      <li class=my-3>Cashflow Planning</li>
+                      <li class=my-3>Strategic Asset Allocation</li>
+                      <li class=my-3><s>Tax Loss Harvesting</s></li>
+                      <li class=my-3><s>Inheritance Management and Planning</s></li>
+                      <li class=my-3><s>Portfolio Services</s></li>
+                      <li class=my-3>Support - Email and Phone / FAQ</li>
+                      <li class=my-3>Online Transaction - IF required</li>
+                      <li class=my-3>Learning Center</li>
+                      
+                    </ul>
+                    <a href=# class="btn btn-outline-primary">select plan</a>
+                  </div>
+                </div>
+                
+                <div class=" col-lg-4 col-sm-6 mb-lg-0 mb-4" data-aos=fade-up data-aos-delay=0>
+                  <div class="pricing-table position-relative text-center px-4 py-5 rounded-lg shadow transition bg-white">
+                    <span class="badge badge-pill badge-light font-weight-medium mb-3 py-2 px-4 text-primary">Basic</span>
+                    <div class="h1 text-dark"><s>Rs.10000</s>
+                      <span class="paragraph text-success"> Rs.8000</span>
+                    </div>
+                    <h5 class="mb-4 font-weight-normal text-muted">Advisory Session</h5>
+                    <hr>
+                    <ul class="list-unstyled my-4">
+                      <li class=my-3>Mutual Funds</li>
+                      <li class=my-3>Stocks - ETF's - IPO's</li>
+                      <li class=my-3>Retirement Planning</li>
+                      <li class=my-3>Cashflow Planning</li>
+                      <li class=my-3>Strategic Asset Allocation</li>
+                      <li class=my-3>Tax Loss Harvesting</li>
+                      <li class=my-3>Inheritance Management and Planning</li>
+                      <li class=my-3>Portfolio Services</li>
+                      <li class=my-3>Support - Email and Phone / FAQ</li>
+                      <li class=my-3>Online Transaction - IF required</li>
+                      <li class=my-3>Learning Center</li>
+                    </ul>
+                    <a href=# class="btn btn-outline-primary">select plan</a>
+                  </div>
+                </div>
+              <!-- <div class="col-lg-4 col-sm-6 mb-lg-0 mb-4" data-aos=fade-up data-aos-delay=200>
+                <div class="pricing-table position-relative text-center px-4 py-5 rounded-lg shadow transition bg-white">
+                  <span class="badge badge-pill badge-light font-weight-medium mb-3 py-2 px-4 text-primary">Professional</span>
+                  <div class="h1 text-dark">$79
+                    <span class="paragraph text-lowercase"> / mo</span>
+                  </div>
+                  <h5 class="mb-4 font-weight-normal text-color">Best for small individuals</h5>
+                  <hr>
+                  <ul class="list-unstyled my-4">
+                    <li class=my-3>Express Service</li>
+                    <li class=my-3>Customs Clearance</li>
+                    <li class=my-3>Time-Critical Services</li>
+                  </ul>
+                  <a href=# class="btn btn-outline-primary">select plan</a>
+                </div>
+              </div> -->
+              <!-- <div class="col-lg-4 col-sm-6 mb-lg-0 mb-4" data-aos=fade-up data-aos-delay=400>
+                <div class="pricing-table position-relative text-center px-4 py-5 rounded-lg shadow transition bg-white">
+                  <span class="badge badge-pill badge-light font-weight-medium mb-3 py-2 px-4 text-primary">Business</span>
+                  <div class="h1 text-dark">$99
+                    <span class="paragraph text-lowercase"> / mo</span>
+                  </div>
+                  <h5 class="mb-4 font-weight-normal text-color">Best for small individuals</h5>
+                  <hr>
+                  <ul class="list-unstyled my-4">
+                    <li class=my-3>Express Service</li>
+                    <li class=my-3>Customs Clearance</li>
+                    <li class=my-3>Time-Critical Services</li>
+                  </ul>
+                  <a href=# class="btn btn-outline-primary">select plan</a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </section>
+  
+     
+     
+      <!-- <section class="customer-feedback" id="feedback-section">
         <div class="row">
           <div class="col-12 text-center pb-5">
             <h2>What our customers have to say</h2>
             <h6 class="section-subtitle text-muted m-0">Lorem ipsum dolor sit amet, tincidunt vestibulum.</h6>
           </div>
           <div class="owl-carousel owl-theme grid-margin">
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face2.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Tony Martinez</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="images/face2.jpg" width="89" height="89" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Tony Martinez</h6>
+                  <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
                 </div>
               </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face3.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Sophia Armstrong</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="images/face3.jpg" width="89" height="89" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Sophia Armstrong</h6>
+                  <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
                 </div>
               </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face20.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Cody Lambert</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="images/face20.jpg" width="89" height="89" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Cody Lambert</h6>
+                  <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
                 </div>
               </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face15.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Cody Lambert</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="images/face15.jpg" width="89" height="89" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Cody Lambert</h6>
+                  <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
                 </div>
               </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face16.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Cody Lambert</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="images/face16.jpg" width="89" height="89" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Cody Lambert</h6>
+                  <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
                 </div>
               </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face1.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Tony Martinez</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="images/face1.jpg" width="89" height="89" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Tony Martinez</h6>
+                  <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
                 </div>
               </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face2.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Tony Martinez</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="images/face2.jpg" width="89" height="89" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Tony Martinez</h6>
+                  <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
                 </div>
               </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face3.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Sophia Armstrong</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="images/face3.jpg" width="89" height="89" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Sophia Armstrong</h6>
+                  <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
                 </div>
               </div>
-              <div class="card customer-cards">
-                <div class="card-body">
-                  <div class="text-center">
-                    <img src="images/face20.jpg" width="89" height="89" alt="" class="img-customer">
-                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                    <div class="content-divider m-auto"></div>
-                    <h6 class="card-title pt-3">Cody Lambert</h6>
-                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
-                  </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="images/face20.jpg" width="89" height="89" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Cody Lambert</h6>
+                  <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
                 </div>
               </div>
+            </div>
           </div>
         </div>
-      </section>
-      <section class="contact-us" id="contact-section">
-        <div class="contact-us-bgimage grid-margin" >
+      </section> -->
+
+     
+      <section class="contact-us" id="book-section">
+        <div class="contact-us-bgimage grid-margin">
           <div class="pb-4">
-            <h4 class="px-3 px-md-0 m-0" data-aos="fade-down">Do you have any projects?</h4>
-            <h4 class="pt-1" data-aos="fade-down">Contact us</h4>
+            <h4 class="px-3 px-md-0 m-0" data-aos="fade-down">Discuss with our expert advisors now !</h4>
+            <!-- <h4 class="pt-1" data-aos="fade-down">Contact us</h4> -->
           </div>
           <div data-aos="fade-up">
-            <button class="btn btn-rounded btn-outline-danger">Contact us</button>
-          </div>          
+            <a class="btn btn-rounded btn-outline-danger" href="https://finvestr.com/pricing/bookings/" >Book Appointment</a>
+          </div>
         </div>
       </section>
-      <section class="contact-details" id="contact-details-section">
+
+      <section >
+        <div class="col-12 text-center pb-5 ">
+          <h2>Our Founder</h2>
+        </div>
+
+        <div class="row align-items-center mb-5">
+          <div class="col-lg-3 text-center">
+            <div class="about-img ">
+              <img src="images/Parth.png" alt="Parth Khare" class="img-fluid ">
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="author-info pl-4 mt-5 mt-lg-0">
+
+              <h2 class="text-lg">Parth Khare</h2>
+              <div data-aos="fade-up">
+                <p class="mb-4 lead">- Founder & CIO</p>
+              </div>
+
+              <p>Certified Investment Adviser | Trader | Quant Researcher</p>
+
+
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="about-img text-center">
+              <img src="images/CFA-Badge-Level-2.png" alt="Parth Khare" class="img-fluid ">
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+   
+      
+
+      <!-- <section class="contact-details " id="contact-details-section">
         <div class="row text-center text-md-left">
           <div class="col-12 col-md-6 col-lg-3 grid-margin">
             <img src="images/flogo.svg" alt="" class="pb-2">
             <div class="pt-2">
               <p class="text-muted m-0">mikayla_beer@feil.name</p>
               <p class="text-muted m-0">906-179-8309</p>
-            </div>         
+            </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3 grid-margin">
             <h5 class="pb-2">Get in Touch</h5>
             <p class="text-muted">Don’t miss any updates of our new templates and extensions.!</p>
-            <form>
-              <input type="text" class="form-control" id="Email" placeholder="Email id">
+
+            <form name="email" method="POST" data-netlify="true">
+              <input type="text" name="email" class="form-control" id="Email" placeholder="Email id">
+              <div class="pt-3">
+                <button class="btn btn-dark">Subscribe</button>
+              </div>
             </form>
-            <div class="pt-3">
-              <button class="btn btn-dark">Subscribe</button>
-            </div>   
+
+
           </div>
           <div class="col-12 col-md-6 col-lg-3 grid-margin">
             <h5 class="pb-2">Our Guidelines</h5>
-            <a href="#"><p class="m-0 pb-2">Terms</p></a>   
-            <a href="#" ><p class="m-0 pt-1 pb-2">Privacy policy</p></a> 
-            <a href="#"><p class="m-0 pt-1 pb-2">Cookie Policy</p></a> 
-            <a href="#"><p class="m-0 pt-1">Discover</p></a> 
+            <a href="#">
+              <p class="m-0 pb-2">Disclaimer</p>
+            </a>
+            <a href="#">
+              <p class="m-0 pt-1 pb-2">Privacy policy</p>
+            </a>
+            <a href="#">
+              <p class="m-0 pt-1 pb-2">SignUp</p>
+            </a>
+            <a href="#">
+              <p class="m-0 pt-1">Book Appointment</p>
+            </a>
           </div>
           <div class="col-12 col-md-6 col-lg-3 grid-margin">
-              <h5 class="pb-2">Our address</h5>
-              <p class="text-muted">518 Schmeler Neck<br>Bartlett. Illinois</p>
-              <div class="d-flex justify-content-center justify-content-md-start">
-                <a href="#"><span class="mdi mdi-facebook"></span></a>
-                <a href="#"><span class="mdi mdi-twitter"></span></a>
-                <a href="#"><span class="mdi mdi-instagram"></span></a>
-                <a href="#"><span class="mdi mdi-linkedin"></span></a>
-              </div>
+            <h5 class="pb-2">Our address</h5>
+            <p class="text-muted">518 Schmeler Neck
+              <br>Bartlett. Illinois</p>
+            <div class="d-flex justify-content-center justify-content-md-start">
+              <a href="#">
+                <span class="mdi mdi-facebook"></span>
+              </a>
+              <a href="#">
+                <span class="mdi mdi-twitter"></span>
+              </a>
+              <a href="#">
+                <span class="mdi mdi-instagram"></span>
+              </a>
+              <a href="#">
+                <span class="mdi mdi-linkedin"></span>
+              </a>
+            </div>
           </div>
-        </div>  
-      </section>
+        </div>
+      </section> -->
+      <section class="contact-details mt-10" id="contact-details-section">
+          <div class="row text-center text-md-left">
+           
+            
+              <div class="col-12 col-md-6 col-lg-3 grid-margin">
+                  <h5 class="pb-2">Our Guidelines</h5>
+                  <a href="disclaimer.html">
+                    <p class="m-0 pb-2">Disclaimer</p>
+                  </a>
+                  <a href="privacy.html">
+                    <p class="m-0 pt-1 pb-2">Privacy policy</p>
+                  </a>
+                  <a href="signup.html">
+                    <p class="m-0 pt-1 pb-2">SignUp</p>
+                  </a>
+                  <a href="bookings.html">
+                    <p class="m-0 pt-1">Book Appointment</p>
+                  </a>
+                </div>
+            <div class="col-12 col-md-6 col-lg-3 grid-margin">
+                <h5 class="pb-2">Useful Links</h5>
+                <a href="pricing.html">
+                  <p class="m-0 pb-2">Pricing</p>
+                </a>
+                <a href="features.html">
+                  <p class="m-0 pt-1 pb-2">Features</p>
+                </a>
+                <a href="how.html">
+                  <p class="m-0 pt-1 pb-2">How we do it</p>
+                </a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfQ2DQ2vq8_24qsObUrOaJr__6MuwuIKC1pASR5x7RsvoFcmg/viewform">
+                  <p class="m-0 pt-1">Workshop Feedback</p>
+                </a>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 grid-margin">
+                  <h5 class="pb-2">SUPPORT</h5>
+                  <a href="https://support.finvestr.in/portal/kb/finvestr/learning-centre">
+                    <p class="m-0 pb-2">Learning Centre</p>
+                  </a>
+                  <a href="https://support.finvestr.in/portal/kb/finvestr/">
+                    <p class="m-0 pt-1 pb-2">FAQs</p>
+                  </a>
+                  <a href="https://support.finvestr.in/portal/kb/finvestr/learning-centre">
+                    <p class="m-0 pt-1 pb-2">Blog</p>
+                  </a>
+                  <a href="https://www.youtube.com/embed/TxNLwb6ZDTg">
+                    <p class="m-0 pt-1">Video Channel</p>
+                  </a>
+                </div>
+            <div class="col-12 col-md-6 col-lg-3 grid-margin">
+              <h5 class="pb-2">Our address</h5>
+              <a class="text-muted" href="https://www.google.com/maps?z=16&q=no%2B18,%2Bkh%2Broad,%2Bshantinagar,%2Bbangalore%2B560027">No 18, KH Road, Shantinagar,
+                <br> Bangalore 560027</a>
+                <p>070198 86571</p>
+                <a href="mailto:contact@finvestr.com">contact@finvestr.com</a>
+                
+              <!-- <div class="d-flex mt-3  justify-content-center justify-content-md-start">
+                <a href="#">
+                  <span class="mdi mdi-facebook"></span>
+                </a>
+                <a href="#">
+                  <span class="mdi mdi-twitter"></span>
+                </a>
+                <a href="#">
+                  <span class="mdi mdi-instagram"></span>
+                </a>
+                <a href="#">
+                  <span class="mdi mdi-linkedin"></span>
+                </a>
+              </div> -->
+            </div>
+          </div>
+        </section>
+    
       <footer class="border-top">
-        <p class="text-center text-muted pt-4">Copyright © 2019<a href="https://www.bootstrapdash.com/" class="px-1">Bootstrapdash.</a>All rights reserved.</p>
+        <div class="row">
+        <div class="col-12 col-md-12 col-lg-6 grid-margin">
+            <p class="  pt-4" style="color: antiquewhite">Copyright Bootstrapdash © 2019.</p>
+    </div>
+    <!-- <div class="col-6 text-right col-md-6 col-lg-6 grid-margin">
+        <p class="pt-4 text-muted">Copyright FinvestR © 2019. All rights reserved.</p>
+</div> -->
+        </div>
+      
       </footer>
+
       <!-- Modal for Contact - us Button -->
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -388,34 +740,243 @@
               <h4 class="modal-title" id="exampleModalLabel">Contact Us</h4>
             </div>
             <div class="modal-body">
-              <form>
+              <form name="contact" method="POST" data-netlify="true">
                 <div class="form-group">
                   <label for="Name">Name</label>
-                  <input type="text" class="form-control" id="Name" placeholder="Name">
+                  <input name="name" type="text" class="form-control" id="Name" placeholder="Name">
                 </div>
                 <div class="form-group">
                   <label for="Email">Email</label>
-                  <input type="email" class="form-control" id="Email-1" placeholder="Email">
+                  <input name="email" type="email" class="form-control" id="Email-1" placeholder="Email">
                 </div>
                 <div class="form-group">
                   <label for="Message">Message</label>
-                  <textarea class="form-control" id="Message" placeholder="Enter your Message"></textarea>
+                  <textarea name="message" class="form-control" id="Message" placeholder="Enter your Message"></textarea>
                 </div>
-              </form>
+
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-success">Submit</button>
+              <button type="submit" class="btn btn-success">Submit</button>
             </div>
+            </form>
           </div>
         </div>
       </div>
-    </div> 
+
+
+      <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="exampleModalLabel">Sign Up</h4>
+              </div>
+              <div class="modal-body">
+                <form name="contact" method="POST" data-netlify="true">
+                  <div class="form-group">
+                    <label for="Name">Name</label>
+                    <input name="name" type="text" class="form-control" id="Name" placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="Pan">PAN</label>
+                    <input name="pan" type="text" class="form-control" id="pan-1" placeholder="PAN" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="Phone">Phone</label>
+                      <input name="phone" type="text" maxlength="20" class="form-control" id="pan-1" placeholder="PAN" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="Pan">Aadhar Number</label>
+                        <input name="aadhar" type="text" class="form-control" id="pan-1" placeholder="PAN" required>
+                      </div>
+
+                      <label class="labelName">Gender
+                        <select name="Dropdown">
+                          <option selected="true" value="-Select-">-Select-</option>
+                          <option value="Male" formula_val="1.00">Male</option>
+                          <option value="Female" formula_val="2.00">Female</option>
+                          <option value="Other" formula_val="9.00">Other</option>
+                          </select>
+                      </label>
+
+<label class="labelName">Marital Status
+    <select name="Dropdown">
+        <option selected="true" value="-Select-">-Select-</option>
+        <option value="Friends or Family" formula_val="1.00">Friends or Family</option>
+        <option value="Web Search" formula_val="2.00">Web Search</option>
+        <option value="Read an article" formula_val="3.00">Read an article</option>
+        <option value="Other" formula_val="9.00">Other</option>
+        </select>
+  </label>
+
+                  <div class="form-group">
+                    <label for="Message">Message</label>
+                    <textarea name="message" class="form-control" id="Message" placeholder="Enter your Message"></textarea>
+                  </div>
+  
+              </div>
+
+
+              <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-success">Submit</button>
+              </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="loginLabel">Login</h4>
+                </div>
+                <div class="modal-body">
+
+                  
+                    <form name="ifanow" id="ifanow" method="post" onsubmit="ValidationEvent(event)">
+                        <div class="form-group">
+                      <label>Email :</label>
+                        <input id="ifanow_email" class="form-control"  name="ifanow_email" placeholder="Enter Email" type="text">
+                        </div>
+                        
+                        <div class="form-group">
+                        <label>Password :</label>
+                        <input id="ifanow_password" class="form-control"  name="ifanow_password" placeholder="Password" type="password">
+                        </div>
+                        <!-- <div class="modal-footer"> -->
+                          <div class="mx-2 my-3">
+                        <input type="submit"  style="background-color: #182349; border:#182349 "class="btn btn-light" value="Login">
+                        <a id="f_btn" onclick="toggleForgetPassword(true)" class="mx-3" style="cursor: pointer;">Forgot password?</a>
+                      </div>
+                      </form>
+
+
+                      <form name="ifanow-forgot-password" id="ifanow-forgot-password" method="post" onsubmit="forgotPassword(event)" style="display: none;">
+                        <div class="form-group">
+                        <label>Email :</label>
+                        <input id="ifanow_forgot_password_email" name="ifanow_forgot_password_email" placeholder="Enter Email" type="text">
+                        </div>
+                        <br>
+                        <div class="form-group">
+                        <input type="submit" value="Send">
+                        <input type="button" value="Back" onclick="toggleForgetPassword(false)">
+                        <span id="pw_text" style="display: none;">Please Wait...</span>
+                      </div>
+                      </form>
+
+
+                  <!-- <form name="contact" method="POST" data-netlify="true">
+                    <div class="form-group">
+                      <label for="Name">Name</label>
+                      <input name="name" type="text" class="form-control" id="Name" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="Email">Email</label>
+                      <input name="email" type="email" class="form-control" id="Email-1" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                      <label for="Message">Message</label>
+                      <textarea name="message" class="form-control" id="Message" placeholder="Enter your Message"></textarea>
+                    </div>
+    
+                
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                  <button type="submit" class="btn btn-success">Submit</button>
+                </div>
+                </form> -->
+              </div>
+            </div>
+          </div>
+
+
+    </div>
   </div>
   <script src="vendors/jquery/jquery.min.js"></script>
   <script src="vendors/bootstrap/bootstrap.min.js"></script>
   <script src="vendors/owl-carousel/js/owl.carousel.min.js"></script>
   <script src="vendors/aos/js/aos.js"></script>
   <script src="js/landingpage.js"></script>
+  
+<!-- login code   -->
+  <script type="text/javascript" src="https://www.my-planner.in/js/libs/ifanow-x-encode/ifanow-x.js"></script>
+  <script type="text/javascript">
+    var domain = 'portal.finvestr.com'; // custom domain
+    var logoutCallback = true; // after logout user redirect to advisor website
+    function toggleForgetPassword(flag){
+      if(flag){
+        document.getElementById("ifanow").style.display='none';
+      document.getElementById("ifanow-forgot-password").style.display='inline'
+      }else{
+        document.getElementById("ifanow").style.display="inline";
+      document.getElementById("ifanow-forgot-password").style.display='none'
+      }
+    }
+    function wait(flag) {
+      if(flag){
+      document.getElementById("pw_text").style.display='inline'
+      }else{
+      document.getElementById("pw_text").style.display='none'
+      }
+    }
+    function validateEmail(email) {
+      var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      return re.test(email);
+    }
+    function ValidationEvent(event) {
+      event.preventDefault()
+      var ifanow_email = document.getElementById("ifanow_email").value;
+      var ifanow_password = document.getElementById("ifanow_password").value;
+      if (ifanow_email != '' && ifanow_password != '') {
+        var str = 'emailId='+ifanow_email+'&password ='+ifanow_password
+            +'&redirect='+logoutCallback;
+        if(logoutCallback){
+          str+='&redirectUrl='+window.location.href;
+        }
+        var hPath = "https://"+domain+"/#!/access/signin?"+Base64.encode(str)
+        console.log(hPath)
+        window.location.replace(hPath);
+      }else{
+        alert("All fields are required.....!");
+      }
+    }
+    function forgotPassword(event){
+      event.preventDefault()
+      var ifanow_forgot_password_email = document.getElementById("ifanow_forgot_password_email").value;
+      if(!validateEmail(ifanow_forgot_password_email)){
+        alert("Enter Valid Email Id")
+        return
+      }
+      wait(true)
+      var xhr = new XMLHttpRequest();
+      /* forget password url */
+      var url = "https://"+domain+"/mm/user/forgotPassword";
+      /* forget password url */
+      xhr.open("POST", url, true);
+      xhr.setRequestHeader("Content-type", "application/json");
+      xhr.onreadystatechange = function () {
+          wait(false)
+          if (xhr.readyState === 4 && xhr.status === 200) {
+            toggleForgetPassword(false)
+              var json = JSON.parse(xhr.responseText);
+              if(json.errorList.length==0){
+                alert("A reset link sent to your email address, please check it in 24 hours.")
+              }else{
+                alert("Something goes wrong !")
+              }
+          }
+        if (xhr.readyState === 4 && xhr.status === 500) {
+              var json = JSON.parse(xhr.responseText);
+              alert(json.errorList[0].errorMessage)
+          } 
+      };
+      var data = JSON.stringify({"emailId": ifanow_forgot_password_email});
+      xhr.send(data);
+    }
+    </script>
 </body>
+
 </html>
