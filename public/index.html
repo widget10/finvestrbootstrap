@@ -768,65 +768,65 @@
               
                 <div class="form-group">
                   <label for="usr">Name:</label>
-                  <input type="text" class="form-control" id="usr" required>
+                  <input type="text" name="name" class="form-control" id="usr" required>
             </div>
             <div class="form-group">
               <label for="email">Email:</label>
-              <input type="email" class="form-control" id="email" required>
+              <input type="email" name="email" class="form-control" id="email" required>
             </div>
 
             <div class="form-group">
               <label for="phone">Phone:</label>
-              <input type="text" class="form-control" id="PhoneNumber" type="text" name="countrycode" elname="countrycode" maxlength="20"
+              <input type="text" class="form-control" id="PhoneNumber" type="text" name="phone" elname="countrycode" maxlength="20"
                 required>
             </div>
             <div class="form-group">
               <label for="PAN">PAN:</label>
-              <input type="text" class="form-control" id="pan" autocomplete="off" type="text" maxlength="255" required>
+              <input type="text" name="pan"  class="form-control" id="pan" autocomplete="off" type="text" maxlength="255" required>
             </div>
             <div class="form-group">
               <label for="aadhar">Aadhar No:</label>
-              <input type="text" class="form-control" id="aad" required>
+              <input type="text" name="aadhar" class="form-control" id="aad" required>
             </div>
-            <label for="sel2">Gender:</label>
+            <label for="gender">Gender:</label>
             <div class="form-check">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optradio">Male
+                <input type="radio" class="form-check-input" name="gender" value="Male">Male
               </label>
             </div>
             <div class="form-check">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optradio">Female
+                <input type="radio" class="form-check-input" name="gender" value="Female">Female
               </label>
             </div>
             <div class="form-check disabled mb-3">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optradio" disabled>Other
+                <input type="radio" class="form-check-input" name="gender" value="Other" >Other
               </label>
             </div>
 
             <div class="form-group">
               <label for="sel2">Marital Status:</label>
               <select class="form-control" id="sel1">
-                <option value="Single">Single</option>
-                <option value="Married">Married</option>
-                <option value="Others">Others</option>
+                <option name="Marital status" value="Single">Single</option>
+                <option name="Marital status" value="Married">Married</option>
+                <option name="Marital status" value="Others">Others</option>
               </select>
             </div>
 
             <div class="form-group">
               <label for="sel2">How did you hear about us?</label>
               <select class="form-control" id="sel1">
-                <option value="Friends or Family" formula_val="1.00">Friends or Family</option>
-                <option value="Web Search" formula_val="2.00">Web Search</option>
-                <option value="Read an article" formula_val="3.00">Read an article</option>
-                <option value="Other" formula_val="9.00">Other</option>
+                <option name="How" value="Friends or Family" formula_val="1.00">Friends or Family</option>
+                <option name="How" value="Web Search" formula_val="2.00">Web Search</option>
+                <option name="How" value="Read an article" formula_val="3.00">Read an article</option>
+                <option name="How" value="Other" formula_val="9.00">Other</option>
               </select>
             </div>
 
             <div class="form-group">
               <label for="aadhar">Referal Code:</label>
-              <input type="text" class="form-control" id="ref">
+              <input type="text" name="ref code"  class="form-control" id="ref">
             </div>
            
           </div>
