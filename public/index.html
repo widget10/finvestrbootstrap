@@ -317,7 +317,7 @@
               <h2>Pricing</h2>
               <!-- <h6 class="section-subtitle text-muted m-0">Our major advisory sessions</h6> -->
             </div>
-            <div class="owl-carousel owl-theme grid-margin" loop=false>
+            <div class="owl-carousel owl-theme grid-margin">
               <div class="  card-body customer-cards " data-aos=fade-up data-aos-delay=0>
                   <div class="pricing-table position-relative text-center px-4 py-5 rounded-lg shadow transition bg-white">
                     <span class="badge badge-pill badge-light font-weight-medium mb-3 py-2 px-4 text-primary">Basic</span>
@@ -650,11 +650,11 @@
             <a href="privacy.html">
               <p class="m-0 pt-1 pb-2">Privacy policy</p>
             </a>
-            <a href="signup.html">
-              <p class="m-0 pt-1 pb-2">SignUp</p>
-            </a>
             <a href="bookings.html">
               <p class="m-0 pt-1">Book Appointment</p>
+            </a>
+            <a data-toggle="modal"  data-target="#signupModal">
+              <p class="m-0 mt-2 pt-1 pb-2 text-primary">SignUp</p>
             </a>
           </div>
           <div class="col-12 col-md-6 col-lg-3 grid-margin">
@@ -732,7 +732,7 @@
               <h4 class="modal-title" id="exampleModalLabel">Sign Up</h4>
             </div>
             <div class="modal-body">
-              <form name="contact" method="POST" data-netlify="true">
+              <form name="signup" method="POST" data-netlify="true">
               
                 <div class="form-group">
                   <label for="usr">Name:</label>
@@ -802,8 +802,9 @@
            
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
-            <button type="submit" class="btn btn-success">Submit</button>
+              <button type="submit" style="background-color: #182349; border:#182349 " class="btn btn-light" value="Login" >SignUp</button>
+            <button type="button" class="btn btn-info" data-dismiss="modal">Back</button>
+           
           </div>
           </form>
         </div>
@@ -909,7 +910,7 @@
               <!-- <div class="modal-footer"> -->
               <div class="mx-2 my-3">
                 <input type="submit" style="background-color: #182349; border:#182349 " class="btn btn-light" value="Login">
-                <a id="f_btn" onclick="toggleForgetPassword(true)" class="mx-3" style="cursor: pointer;">Forgot password?</a>
+                <a id="f_btn" onclick="toggleForgetPassword(true)" class="mx-3 " style="cursor: pointer;">Forgot password?</a>
               </div>
             </form>
 
