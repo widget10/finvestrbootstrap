@@ -18,56 +18,73 @@
 
 <body id="body" data-spy="scroll" data-target=".navbar" data-offset="100">
 
-  <header id="header-section">
-    <nav class="navbar navbar-expand-lg pl-3 pl-sm-0" id="navbar">
-      <div class="container">
-        <div class="navbar-brand-wrapper d-flex w-100">
-          <img src="images/finallogook.svg  " alt="">
-          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="mdi mdi-menu navbar-toggler-icon"></span>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse navbar-menu-wrapper" id="navbarSupportedContent">
-                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+    <header id="header-section">
+        <nav class="navbar navbar-expand-lg pl-3 pl-sm-0" id="navbar">
+          <div class="container">
+            <div class="navbar-brand-wrapper d-flex w-100">
+              <a href="index.html">
+                <img src="images/finallogook.svg  " alt="">
+              </a>
+              <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="mdi mdi-menu navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse navbar-menu-wrapper" id="navbarSupportedContent">
+              <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="mdi mdi-menu navbar-toggler-icon"></span>
               </button>
               <ul class="navbar-nav align-items-lg-center align-items-start ml-auto">
-            <li class="d-flex align-items-center justify-content-between pl-4 pl-lg-0">
-              <div class="navbar-collapse-logo">
-                <img src="images/finallogook.svg" alt="">
-              </div>
-              <button class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="mdi mdi-close navbar-toggler-icon pl-5"></span>
-              </button>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            
-            
-            <li class="nav-item">
-              <a class="nav-link" href="https://support.finvestr.in/portal/kb/finvestr/learning-centre">Blog</a>
-            </li>
-            
-            <li class="nav-item btn-contact-us pl-4 pl-lg-0">
-                <button class="btn btn-info" data-toggle="modal" style="background-color: #182349; border:#182349 " data-target="#exampleModal">Login</button>
-
-              <button class="btn btn-info" data-toggle="modal" data-target="#exampleModal">Sign Up</button>
-
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
+                <li class="d-flex align-items-center justify-content-between pl-4 pl-lg-0">
+                  <div class="navbar-collapse-logo">
+    
+                    <!-- <a href="index.html">
+                          <img src="images/finallogook.svg  " alt="">
+                       </a> -->
+                    <img src="images/finallogook.svg" alt="">
+                  </div>
+                  <button class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="mdi mdi-close navbar-toggler-icon pl-5"></span>
+                  </button>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#features-section">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#pricing-section">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="bookings.html">Connect</a>
+                </li>
+    
+                <li class="nav-item">
+                  <a class="nav-link" href="https://support.finvestr.in/portal/kb/finvestr/learning-centre">Blog</a>
+                </li>
+    
+                <li class="nav-item btn-contact-us pl-4 pl-lg-0">
+                  <!-- <a href="https://portal.finvestr.com/#!/access/signin">
+                    <button class="btn btn-info"  style="background-color: #182349; border:#182349 " >Login</button>
+    </a> -->
+                  <button class="btn btn-info" style="background-color: #182349; border:#182349 " data-toggle="modal" data-target="#loginModal">Login</button>
+    
+                  <button class="btn btn-info" data-toggle="modal" data-target="#signupModal">Sign Up</button>
+    
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
   <div class="banner pb-1">
     <div class="container">
-      <h1 class="font-weight-semibold mb-5">Disclaimer
+      <h1 class="font-weight-semibold mb-5">PRICING
       
     </div>
     
@@ -77,10 +94,7 @@
   
   <section class="customer-feedback" id="pricing-section">
     <div class="row">
-      <div class="col-12 text-center pb-5">
-        <h2>Pricing</h2>
-        <!-- <h6 class="section-subtitle text-muted m-0">Our major advisory sessions</h6> -->
-      </div>
+    
       <div class="owl-carousel owl-theme grid-margin">
         <div class="  card-body customer-cards " data-aos=fade-up data-aos-delay=0>
             <div class="pricing-table position-relative text-center px-4 py-5 rounded-lg shadow transition bg-white">
@@ -187,62 +201,62 @@
   
 
   <section class="container mt-10" id="contact-details-section">
-        <div class="row text-center text-md-left">
-         
-          
-            <div class="col-12 col-md-6 col-lg-3 grid-margin">
-                <h5 class="pb-2">Our Guidelines</h5>
-                <a href="disclaimer.html">
-                  <p class="m-0 pb-2">Disclaimer</p>
-                </a>
-                <a href="privacy.html">
-                  <p class="m-0 pt-1 pb-2">Privacy policy</p>
-                </a>
-                <a href="signup.html">
-                  <p class="m-0 pt-1 pb-2">SignUp</p>
-                </a>
-                <a href="bookings.html">
-                  <p class="m-0 pt-1">Book Appointment</p>
-                </a>
-              </div>
-          <div class="col-12 col-md-6 col-lg-3 grid-margin">
-              <h5 class="pb-2">Useful Links</h5>
-              <a href="pricing">
-                <p class="m-0 pb-2">Pricing</p>
-              </a>
-               <a href="features.html">
-                  <p class="m-0 pt-1 pb-2">Features</p>
-                </a>
-              <a href="how.html">
-                <p class="m-0 pt-1 pb-2">How we do it</p>
-              </a>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfQ2DQ2vq8_24qsObUrOaJr__6MuwuIKC1pASR5x7RsvoFcmg/viewform">
-                <p class="m-0 pt-1">Workshop Feedback</p>
-              </a>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3 grid-margin">
-                <h5 class="pb-2">SUPPORT</h5>
-                <a href="https://support.finvestr.in/portal/kb/finvestr/learning-centre">
-                  <p class="m-0 pb-2">Learning Centre</p>
-                </a>
-                <a href="https://support.finvestr.in/portal/kb/finvestr/">
-                  <p class="m-0 pt-1 pb-2">FAQs</p>
-                </a>
-                <a href="https://support.finvestr.in/portal/kb/finvestr/learning-centre">
-                  <p class="m-0 pt-1 pb-2">Blog</p>
-                </a>
-                <a href="https://www.youtube.com/embed/TxNLwb6ZDTg">
-                  <p class="m-0 pt-1">Video Channel</p>
-                </a>
-              </div>
-          <div class="col-12 col-md-6 col-lg-3 grid-margin">
-            <h5 class="pb-2">Our address</h5>
-            <a class="text-muted" href="https://www.google.com/maps?z=16&q=no%2B18,%2Bkh%2Broad,%2Bshantinagar,%2Bbangalore%2B560027">No 18, KH Road, Shantinagar,
-              <br> Bangalore 560027</a>
-              <p>070198 86571</p>
-              <a href="mailto:contact@finvestr.com">contact@finvestr.com</a>
-              
-            <!-- <div class="d-flex mt-3  justify-content-center justify-content-md-start">
+      <div class="row text-center text-md-left">
+
+
+        <div class="col-12 col-md-6 col-lg-3 grid-margin">
+          <h5 class="pb-2">Our Guidelines</h5>
+          <a href="disclaimer.html">
+            <p class="m-0 pb-2">Disclaimer</p>
+          </a>
+          <a href="privacy.html">
+            <p class="m-0 pt-1 pb-2">Privacy policy</p>
+          </a>
+          <a href="bookings.html">
+            <p class="m-0 pt-1">Book Appointment</p>
+          </a>
+          <a data-toggle="modal"  data-target="#signupModal">
+            <p class="m-0 mt-2 pt-1 pb-2 text-primary">SignUp</p>
+          </a>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 grid-margin">
+          <h5 class="pb-2">Useful Links</h5>
+          <a href="pricing.html">
+            <p class="m-0 pb-2">Pricing</p>
+          </a>
+          <a href="features.html">
+            <p class="m-0 pt-1 pb-2">How we do it</p>
+          </a>
+          <a href="how.html">
+            <p class="m-0 pt-1 pb-2">Advanced Features</p>
+          </a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfQ2DQ2vq8_24qsObUrOaJr__6MuwuIKC1pASR5x7RsvoFcmg/viewform">
+            <p class="m-0 pt-1">Workshop Feedback</p>
+          </a>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 grid-margin">
+          <h5 class="pb-2">SUPPORT</h5>
+          <a href="https://support.finvestr.in/portal/kb/finvestr/learning-centre">
+            <p class="m-0 pb-2">Learning Centre</p>
+          </a>
+          <a href="https://support.finvestr.in/portal/kb/finvestr/">
+            <p class="m-0 pt-1 pb-2">FAQs</p>
+          </a>
+          <a href="https://support.finvestr.in/portal/kb/finvestr/learning-centre">
+            <p class="m-0 pt-1 pb-2">Blog</p>
+          </a>
+          <a href="https://www.youtube.com/embed/TxNLwb6ZDTg">
+            <p class="m-0 pt-1">Video Channel</p>
+          </a>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 grid-margin">
+          <h5 class="pb-2">Our address</h5>
+          <a class="text-muted" href="https://www.google.com/maps?z=16&q=no%2B18,%2Bkh%2Broad,%2Bshantinagar,%2Bbangalore%2B560027">No 18, KH Road, Shantinagar,
+            <br> Bangalore 560027</a>
+          <p>070198 86571</p>
+          <a href="mailto:contact@finvestr.com">contact@finvestr.com</a>
+
+          <!-- <div class="d-flex mt-3  justify-content-center justify-content-md-start">
               <a href="#">
                 <span class="mdi mdi-facebook"></span>
               </a>
@@ -256,12 +270,9 @@
                 <span class="mdi mdi-linkedin"></span>
               </a>
             </div> -->
-         
-         
-          </div>
         </div>
-      </section>
-
+      </div>
+    </section>
 
 
       
